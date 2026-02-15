@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Orlando Abreu | Cirurgia Buco-Maxilo-Facial</title>
+
+<style>
+:root{
+  --bg:#0b1220;
+  --card:#111827;
+  --accent:#38bdf8;
+  --accent2:#3b82f6;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:system-ui,Segoe UI,Roboto;
+  background:linear-gradient(180deg,#0a0f1c,#0b1220);
+  color:var(--text);
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:30px 20px;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 25px;
+  background:rgba(17,24,39,.7);
+  border-radius:16px;
+  border:1px solid rgba(56,189,248,.2);
+}
+
+header h1{
+  margin:0;
+  font-size:20px;
+}
+
+nav a{
+  margin-left:20px;
+  color:var(--muted);
+  text-decoration:none;
+}
+
+nav a:hover{
+  color:var(--accent);
+}
+
+.btn{
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:white;
+  padding:10px 20px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  box-shadow:0 0 20px rgba(56,189,248,.4);
+}
+
+.hero{
+  margin-top:40px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+
+.profile-img{
+  width:100%;
+  border-radius:20px;
+  box-shadow:0 0 40px rgba(56,189,248,.3);
+}
+
+.section{
+  margin-top:60px;
+}
+
+.card{
+  background:var(--card);
+  padding:30px;
+  border-radius:20px;
+  border:1px solid rgba(56,189,248,.15);
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  margin-top:20px;
+}
+
+.service{
+  background:#0f172a;
+  padding:20px;
+  border-radius:15px;
+  border:1px solid rgba(56,189,248,.15);
+}
+
+.service h3{
+  margin-top:0;
+  color:var(--accent);
+}
+
+.faq-item{
+  margin-bottom:15px;
+}
+
+.faq-item h4{
+  color:var(--accent);
+}
+
+.whatsapp-float{
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:white;
+  padding:15px 20px;
+  border-radius:50px;
+  text-decoration:none;
+  box-shadow:0 0 25px rgba(56,189,248,.6);
+}
+
+footer{
+  margin-top:60px;
+  text-align:center;
+  color:var(--muted);
+}
+
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+  <h1>Dr. Orlando Abreu</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#duvidas">Dúvidas</a>
+    <a class="btn" href="https://wa.me/5591999873835?text=Olá%20Dr.%20Orlando,%20vim%20pelo%20site%20e%20gostaria%20de%20informações" target="_blank">WhatsApp</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div>
+    <h2>Cirurgia e Traumatologia Buco-Maxilo-Facial</h2>
+    <p>
+      Atuação clínica e cirúrgica com foco em precisão técnica,
+      planejamento estruturado e visão tecnológica aplicada à saúde.
+    </p>
+    <p>
+      Fundador da BTX TECH BAIXO TOCANTINS.
+      Belém – Pará – Brasil.
+    </p>
+  </div>
+  <div>
+    <img src="orlando.jpg" class="profile-img">
+  </div>
+</div>
+
+<div class="section" id="sobre">
+  <div class="card">
+    <h2>Formação Acadêmica</h2>
+    <div class="grid">
+      <div class="service">Odontologia – CESUPA (2010)</div>
+      <div class="service">Especialização Buco-Maxilo-Facial – UFPA</div>
+      <div class="service">Pós em Saúde Coletiva – Faculdade de São Paulo</div>
+      <div class="service">Pós-graduando em Patologia</div>
+      <div class="service">Graduando em Medicina – AFYA</div>
+      <div class="service">Engenharia da Computação e Análise de Sistemas – FATECIE</div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="servicos">
+  <div class="card">
+    <h2>Serviços</h2>
+    <div class="grid">
+      <div class="service">
+        <h3>Trauma Facial</h3>
+        <p>Tratamento de fraturas e lesões da face.</p>
+      </div>
+      <div class="service">
+        <h3>Cirurgia de Siso Complexo</h3>
+        <p>Procedimentos com planejamento seguro.</p>
+      </div>
+      <div class="service">
+        <h3>Infecções Odontogênicas</h3>
+        <p>Diagnóstico e manejo cirúrgico adequado.</p>
+      </div>
+      <div class="service">
+        <h3>Planejamento Cirúrgico</h3>
+        <p>Estratégia e organização de casos complexos.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="duvidas">
+  <div class="card">
+    <h2>Dúvidas Frequentes</h2>
+
+    <div class="faq-item">
+      <h4>Quando devo procurar um buco-maxilo?</h4>
+      <p>Em casos de trauma, dor intensa, infecção ou cirurgia complexa.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Trauma no queixo pode afetar a ATM?</h4>
+      <p>Sim, pode causar dor irradiada e disfunção temporomandibular.</p>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+© 2026 • Dr. Orlando Abreu • BTX TECH
+</footer>
+
+</div>
+
+<a class="whatsapp-float" href="https://wa.me/5591999873835?text=Olá%20Dr.%20Orlando,%20vim%20pelo%20site%20e%20gostaria%20de%20informações" target="_blank">
+💬 WhatsApp
+</a>
+
+</body>
+</html>
